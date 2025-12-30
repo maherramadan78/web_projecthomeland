@@ -15,6 +15,10 @@
   max-width: 830px;
 }
 
+.intro__title-break {
+  display: block;
+}
+
 .intro__content {
   max-width: 720px;
 }
@@ -24,6 +28,7 @@
   line-height: 1.4;
   color: #ffffff;
   margin-bottom: 10px;
+  text-align: justify; /* Agregado */
 }
 
 .intro__author {
@@ -38,6 +43,7 @@
   font-size: 16px;
   line-height: 1.6;
   color: #ffffff;
+  text-align: justify; /* Agregado aquí */
 }
 
 /* Media queries corregidas */
@@ -78,5 +84,9 @@
 
   .intro__text {
     font-size: 14px;
+  }
+
+  .intro__title-break {
+    display: block;
   }
 }
