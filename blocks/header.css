@@ -2,9 +2,12 @@
 .header {
   min-height: auto;
   background-color: #1f2328;
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column; /* 🔥 ESTA ES LA CLAVE */
+  align-items: center; /* centra horizontal */
+  text-align: center; /* centra texto */
+
   padding: 34px 20px 56px;
 }
 
