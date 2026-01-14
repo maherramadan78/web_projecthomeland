@@ -21,14 +21,16 @@
   font-weight: 900;
   line-height: 1.05;
   color: #ffffff;
+  margin: auto;
   margin-bottom: 24px;
+  max-width: 720px;
 }
 
 .header__subtitle {
-  font-size: 14px;
-  line-height: 1.4;
-  color: #bfbfbf;
-  max-width: 420px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  max-width: 720px;
   margin: 0 auto;
 }
 

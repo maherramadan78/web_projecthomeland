@@ -39,6 +39,7 @@
 }
 
 .place__paragraph {
+  margin-top: 0;
   grid-column: 2;
   grid-row: 2;
   color: #ffffff;
@@ -101,5 +102,10 @@
   .place__website {
     grid-column: 1;
     grid-row: 2;
+  }
+
+  .place__button {
+    font-size: 14px;
+    line-height: 100%;
   }
 }
